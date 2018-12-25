@@ -1,0 +1,55 @@
+.CircularProgressbar {
+  width: 100%;
+}
+
+.emotionGrid {
+  padding: 5vh !important
+}
+
+@media only screen and (max-width: 750px) {
+.CircularProgressbar {
+  width: 100%;
+  display: flex;
+  margin: 0 auto
+}
+.emotionGrid {
+  padding: 2vh !important
+}
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: white;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #eee
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: white;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+  fill: #d6d6d6;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+  fill: #3e98c7;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+  fill: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+  stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+  stroke: red;
+}

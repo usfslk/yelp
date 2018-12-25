@@ -1,0 +1,16 @@
+body {
+  background-color: #000;
+}
+
+.App-main {
+  background-color: #000;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fcfcfc;
+  padding-bottom: 5vh;
+}
+
